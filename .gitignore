@@ -1,6 +1,16 @@
 # .env file(s)
 **/.env
 
+# drawio
+**/LLM_flow.drawio
+
+# DS_STORE
+**/.DS_Store
+
+# source slide
+**/slides_final.pptx
+**/slides.key
+**/src_slides_general.pptx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
