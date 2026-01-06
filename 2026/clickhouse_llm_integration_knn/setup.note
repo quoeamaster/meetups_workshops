@@ -1,0 +1,20 @@
+# build the virtual environment
+python3 -m venv venv
+
+# activate the venv; once activate, the CLI prompt would be updated with "(venv) " prepended
+source venv/bin/activate
+
+# (optional) upgrade pip if necessary
+# pip3 install --upgrade pip
+
+# install the required python libraries
+pip install \
+  sentence-transformers \
+  clickhouse-connect \
+  numpy \
+  openai \
+  python-dotenv
+
+# install through requirements.txt also works
+# pip install -r requirements.txt
+
